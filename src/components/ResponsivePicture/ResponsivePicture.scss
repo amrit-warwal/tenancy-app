@@ -1,0 +1,12 @@
+$base-selector: '.responsive-picture';
+
+#{$base-selector} {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
