@@ -1,0 +1,8 @@
+type UserType = 'ADMIN' | 'TENANT' | 'LANDLORD'
+    
+type User {
+  id: ID!
+  email: String!
+  name: String!
+  userType: UserType!
+}
